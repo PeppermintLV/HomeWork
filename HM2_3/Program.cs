@@ -11,15 +11,15 @@ namespace HM2_3
             //2.way = $" {str1} {str2} "
             //3.way = use method String.Format("Some text {0} un {1}", str1, str2)
 
-            string string1 = "Mans ";
-            string string2 = "Vards ";
-            string string3 = "ir ";
-            string string4 = "Darta ";
+            string string1 = "Mans";
+            string string2 = "Vards";
+            string string3 = "ir";
+            string string4 = "Darta";
 
-            Console.WriteLine(string1 + string2 + string3 + string4);
-            Console.WriteLine($"{string1}{string2}{string3}{string4}");
-            Console.WriteLine("{0}{1}{2}{3}", string1, string2, string3, string4);
-            Console.ReadKey();
+            Console.WriteLine(string1 + " " + string2 + " " + string3 + " " + string4);
+            Console.WriteLine($"{string1} {string2} {string3} {string4}");
+            Console.WriteLine("{0} {1} {2} {3}", string1, string2, string3, string4);
+            
         }
     }
 }

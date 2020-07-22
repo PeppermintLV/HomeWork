@@ -37,7 +37,7 @@ namespace HM3_1
                 }             
             }
 
-            Console.ReadKey();
+          
         }
     }
 }

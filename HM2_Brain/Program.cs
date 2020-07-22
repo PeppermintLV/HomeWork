@@ -12,13 +12,15 @@ namespace HM2_Brain
             //Main task – figure out how to change both values in between themselves. 
             //Then print out the values a & b.You need to print out exactly a &b, but the values have to be switched.
 
-            int skaitlis= 100;
-            string teksts = "10";
 
-            string temp = skaitlis.ToString();
-            skaitlis = int.Parse(teksts);
-            teksts = temp;
-            Console.WriteLine(skaitlis +" "+ teksts);
+
+            int a = 100;
+            string b = "10";
+
+            string temp = a.ToString();
+            a = int.Parse(b);
+            b = temp;
+            Console.WriteLine(a + " " + b);
             Console.ReadKey();
         }
     }

@@ -7,12 +7,14 @@ namespace HM2_1
         static void Main(string[] args)
         {
             //Create a console application which will ask for a name and then prints it out. (Use Console.WriteLine and Console.ReadLine)
-            string vards;
+           
 
-            Console.WriteLine("Kads ir jusu vards?");
+            Console.Write("Kads ir jusu vards?");
+            string vards;
             vards = Console.ReadLine();
-            Console.WriteLine("Jusu vards ir {0}?", vards);
+            Console.WriteLine($"Jusu vards ir {vards}?");
             Console.ReadKey();
+            Console.WriteLine();
         }
     }
 }

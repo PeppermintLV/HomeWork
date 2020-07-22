@@ -11,15 +11,22 @@ namespace HM2_2
             //The 'name' is the variable where you store the value.
 
             //https://docs.microsoft.com/en-us/dotnet/api/system.string.substring?view=netcore-3.1
-            string name;
-            int found;
+            
+           
 
             Console.WriteLine("Kads ir jusu vards?");
+            string name;
             name = Console.ReadLine();
-            found = name.IndexOf(" ");
+            Console.WriteLine("Kads ir jusu uzvards?");
+            string surname;
+            surname = Console.ReadLine();
 
-            Console.WriteLine("Jusu saukt {0} vai {1}. {2} ", name, name.Substring(0, 1), name.Substring(found + 1));
-            Console.ReadKey();
+            Console.WriteLine($"Jus sauc {name} {surname}?");
+            
+            Console.WriteLine($"Varbut Jus saukt {name.Substring(0, 1)}. {surname}?");
+
+
+
         }
     }
 }
